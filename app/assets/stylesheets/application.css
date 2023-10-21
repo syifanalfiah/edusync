@@ -1,0 +1,21 @@
+.title {
+    padding: 10px 0;
+  
+    position: relative;
+  }
+  
+  .text-ai {
+    font-size:2rem;
+    color: #00b0ff;
+    animation: shining 1s infinite;
+  }
+  
+  .hr-title {
+    border-top: 3px solid #bf00ff;
+    width: 20px;
+    margin: 10px auto;
+  }
+  
+  .bg-student {
+    background-color: #f3b3fc;
+  }

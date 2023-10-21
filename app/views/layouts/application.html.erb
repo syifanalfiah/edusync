@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edusync</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <div class="title text-center">
+      <h5 class="font-weight-bold text-ai">Edusync</h5>
+      <hr class="hr-title bg-student">
+    </div>
+    <%= yield %>
+  </body>
+</html>
